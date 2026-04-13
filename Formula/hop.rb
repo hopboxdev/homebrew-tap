@@ -1,7 +1,7 @@
 class Hop < Formula
   desc "CLI client for Hopbox — SSH into your dev containers"
   homepage "https://github.com/hopboxdev/hopbox"
-  license "MIT"
+  license "Elastic-2.0"
   version "0.3.3"
 
   on_macos do
