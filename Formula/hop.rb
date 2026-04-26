@@ -2,12 +2,12 @@ class Hop < Formula
   desc "CLI client for Hopbox — SSH into your dev containers"
   homepage "https://github.com/hopboxdev/hopbox"
   license "Elastic-2.0"
-  version "0.7.13"
+  version "0.7.14"
 
   on_macos do
     on_arm do
-      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.13/hop-darwin-arm64"
-      sha256 "7e4d3f90c61d83efab882416b51b821e7284e017f851cf1e4294bc788304853f"
+      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.14/hop-darwin-arm64"
+      sha256 "b58867ecab58561d2ba5e0f9e891e539a9840ab79e44da01e16737f687e3986a"
 
       def install
         bin.install "hop-darwin-arm64" => "hop"
@@ -15,8 +15,8 @@ class Hop < Formula
     end
 
     on_intel do
-      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.13/hop-darwin-amd64"
-      sha256 "2c5cc1e5bf64d1bc157c8af82fd6f28cfc2830eade661798c21c010c024507ed"
+      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.14/hop-darwin-amd64"
+      sha256 "2f67dd4b9ed6d17fc820e051732eb85eb9b51405ef54eece9643bb8567018261"
 
       def install
         bin.install "hop-darwin-amd64" => "hop"
@@ -26,8 +26,8 @@ class Hop < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.13/hop-linux-arm64"
-      sha256 "e5ff12762cfe8914e0f3911982246788eea5d1e172f2c9d67a897f8fcf879739"
+      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.14/hop-linux-arm64"
+      sha256 "b326c48f2dfc9d7dcf913ba7b926c50cf73c9bed3bac919e0c54953f5c260c1a"
 
       def install
         bin.install "hop-linux-arm64" => "hop"
@@ -35,8 +35,8 @@ class Hop < Formula
     end
 
     on_intel do
-      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.13/hop-linux-amd64"
-      sha256 "95bf9d6c32a8cb90e38681491828fb405f66d80ce18cec771b5e0e3c3271a99c"
+      url "https://github.com/hopboxdev/hopbox/releases/download/v0.7.14/hop-linux-amd64"
+      sha256 "3900de4f260bf5067c45b9878aba5a2194cd42313007b17dacb958b953d90e54"
 
       def install
         bin.install "hop-linux-amd64" => "hop"
